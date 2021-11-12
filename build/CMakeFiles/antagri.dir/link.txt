@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/antagri.dir/src/antagri.o  -o ../bin/antagri   -L/usr/local/cuda/lib64 

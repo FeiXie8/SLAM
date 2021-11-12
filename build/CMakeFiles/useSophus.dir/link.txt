@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/useSophus.dir/src/useSophus.o  -o ../bin/useSophus   -L/usr/local/cuda/lib64  -Wl,-rpath,/usr/local/cuda/lib64 -lfmt 

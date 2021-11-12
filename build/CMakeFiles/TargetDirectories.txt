@@ -1,0 +1,8 @@
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/rebuild_cache.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/edit_cache.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/g2oCurveFitting.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/ceresCurveFitting.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/antagriCV.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/antagri.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/gaussNewton.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/useSophus.dir
