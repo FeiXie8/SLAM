@@ -4,5 +4,6 @@
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/ceresCurveFitting.dir
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/antagriCV.dir
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/antagri.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/orb_cv.dir
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/gaussNewton.dir
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/useSophus.dir

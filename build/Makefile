@@ -163,6 +163,19 @@ antagri/fast:
 .PHONY : antagri/fast
 
 #=============================================================================
+# Target rules for targets named orb_cv
+
+# Build rule for target.
+orb_cv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 orb_cv
+.PHONY : orb_cv
+
+# fast build rule for target.
+orb_cv/fast:
+	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/build
+.PHONY : orb_cv/fast
+
+#=============================================================================
 # Target rules for targets named gaussNewton
 
 # Build rule for target.
@@ -264,6 +277,21 @@ src/gaussNewton.s:
 .PHONY : src/gaussNewton.s
 
 # target to build an object file
+src/orb_cv.o:
+	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/src/orb_cv.o
+.PHONY : src/orb_cv.o
+
+# target to preprocess a source file
+src/orb_cv.i:
+	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/src/orb_cv.i
+.PHONY : src/orb_cv.i
+
+# target to generate assembly for a file
+src/orb_cv.s:
+	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/src/orb_cv.s
+.PHONY : src/orb_cv.s
+
+# target to build an object file
 src/useSophus.o:
 	$(MAKE) -f CMakeFiles/useSophus.dir/build.make CMakeFiles/useSophus.dir/src/useSophus.o
 .PHONY : src/useSophus.o
@@ -290,6 +318,7 @@ help:
 	@echo "... ceresCurveFitting"
 	@echo "... antagriCV"
 	@echo "... antagri"
+	@echo "... orb_cv"
 	@echo "... gaussNewton"
 	@echo "... useSophus"
 	@echo "... src/antagri.o"
@@ -307,6 +336,9 @@ help:
 	@echo "... src/gaussNewton.o"
 	@echo "... src/gaussNewton.i"
 	@echo "... src/gaussNewton.s"
+	@echo "... src/orb_cv.o"
+	@echo "... src/orb_cv.i"
+	@echo "... src/orb_cv.s"
 	@echo "... src/useSophus.o"
 	@echo "... src/useSophus.i"
 	@echo "... src/useSophus.s"

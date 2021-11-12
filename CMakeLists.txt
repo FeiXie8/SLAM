@@ -35,3 +35,6 @@ target_link_libraries(ceresCurveFitting ${OpenCV_LIBS} ${CERES_LIBRARIES})
 
 add_executable(g2oCurveFitting ${PROJECT_SOURCE_DIR}/src/g2oCurveFitting.cpp)
 target_link_libraries(g2oCurveFitting ${OpenCV_LIBS} g2o_stuff g2o_core)
+
+add_executable(orb_cv ${PROJECT_SOURCE_DIR}/src/orb_cv.cpp)
+target_link_libraries(orb_cv ${OpenCV_LIBS})
