@@ -38,3 +38,9 @@ target_link_libraries(g2oCurveFitting ${OpenCV_LIBS} g2o_stuff g2o_core)
 
 add_executable(orb_cv ${PROJECT_SOURCE_DIR}/src/orb_cv.cpp)
 target_link_libraries(orb_cv ${OpenCV_LIBS})
+
+add_executable(pose_estimation_2d2d ${PROJECT_SOURCE_DIR}/src/pose_estimation_2d2d.cpp)
+target_link_libraries(pose_estimation_2d2d ${OpenCV_LIBS})
+
+add_executable(triangulation ${PROJECT_SOURCE_DIR}/src/triangulation.cpp)
+target_link_libraries(triangulation ${OpenCV_LIBS})

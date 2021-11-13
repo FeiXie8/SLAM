@@ -1,6 +1,8 @@
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/rebuild_cache.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/pose_estimation_2d2d.dir
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/edit_cache.dir
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/g2oCurveFitting.dir
+/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/triangulation.dir
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/ceresCurveFitting.dir
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/antagriCV.dir
 /home/xiefei/learnSLAM/learnSophus/build/CMakeFiles/antagri.dir
