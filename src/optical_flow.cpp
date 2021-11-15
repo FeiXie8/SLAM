@@ -1,7 +1,3 @@
-//
-// Created by Xiang on 2017/12/19.
-//
-
 #include <opencv2/opencv.hpp>
 #include <string>
 #include <chrono>
@@ -97,6 +93,10 @@ inline float GetPixelValue(const cv::Mat &img, float x, float y) {
     int x_a1 = std::min(img.cols - 1, int(x) + 1);
     int y_a1 = std::min(img.rows - 1, int(y) + 1);
     
+    /**
+     * 四个系数和为1
+     */
+
     return (1 - xx) * (1 - yy) * img.at<uchar>(y, x)
     + xx * (1 - yy) * img.at<uchar>(y, x_a1)
     + (1 - xx) * yy * img.at<uchar>(y_a1, x)

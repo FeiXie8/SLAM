@@ -1,0 +1,131 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "usesophus",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "antagri::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-antagri-Release-b7c2e9a28c6d73b49e2f.json",
+					"name" : "antagri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "antagriCV::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-antagriCV-Release-718454fbf450dcb0dcf0.json",
+					"name" : "antagriCV",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ceresCurveFitting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ceresCurveFitting-Release-2d267a2c1256d31338e2.json",
+					"name" : "ceresCurveFitting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "g2oCurveFitting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-g2oCurveFitting-Release-c47a62969c170a000361.json",
+					"name" : "g2oCurveFitting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gaussNewton::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gaussNewton-Release-b90835703265e9229199.json",
+					"name" : "gaussNewton",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orb_cv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orb_cv-Release-dfb3f9278ad05604c7ae.json",
+					"name" : "orb_cv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_estimation_2d2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_estimation_2d2d-Release-8d1d80fc232c6e71b10f.json",
+					"name" : "pose_estimation_2d2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "triangulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-triangulation-Release-5bb4d03b7c397bdbae85.json",
+					"name" : "triangulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "useSophus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-useSophus-Release-02869dc0ad6aa138757e.json",
+					"name" : "useSophus",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xiefei/learnSLAM/learnSophus/build",
+		"source" : "/home/xiefei/learnSLAM/learnSophus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
