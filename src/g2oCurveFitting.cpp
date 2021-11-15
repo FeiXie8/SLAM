@@ -31,6 +31,7 @@ class CurveFittingEdge:public g2o::BaseUnaryEdge<1,double,CurveFittingVertx>{
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW
     CurveFittingEdge(double x):BaseUnaryEdge(),_x(x){}
+    
     virtual void computeError() override{
         const CurveFittingVertx *v =static_cast<const CurveFittingVertx*>(_vertices[0]);
         const Eigen::Vector3d abc=v->estimate();
