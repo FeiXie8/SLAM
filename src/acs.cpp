@@ -12,11 +12,12 @@ using namespace std;
 const int nodeNum = 8;     //结点数量
 const int pathNum = 16;    //路径数量
 const int antNum = 20;     //蚂蚁数量
-const double pVol = 0.3;   //信息素挥发系数 
-const int pQ = 1000;         //信息素强度 
+const double pVol = 0.7;   //信息素挥发系数
+const int pQ = 1000;         //信息素强度 10~1000
 const double pImp = 5;     //信息素相对重要性 
 const double qImp = 1;     //启发信息相对重要性 
 const int gen = 100;       //迭代次数 100~500
+const int alpha=0.3;       //局部更新系数
 
 struct ant                 //蚂蚁结构体
 {
@@ -56,6 +57,7 @@ int getBestPath();
 void printBestPath(int, int);
 void updatePher();
 void evolution();
+void localUpdate(int i,int j);
 
 int main()
 {
@@ -180,10 +182,11 @@ int nodeSelect(int k, int f)
 		if (r <= lineNodeProb[m])
 		{
 			j = nodeProb[m].num;
+            localUpdate(ants[k].loc,j);
 			updateAnt(k, j);
 			if (j == f)
 				ants[k].flag = 1;  //若蚂蚁k下一步结点为目的地结点，则修改标志
-			return j;
+            return j;
 		}
 
 	}
@@ -303,22 +306,17 @@ void printBestPath(int k, int f)
 	cout << "  对应距离为：" << getAntLen(ants[k]) << endl;
 }
 
-//更新信息素矩阵
+//只更新精英蚂蚁走过路径的信息素
 void updatePher()
 {
-	for (int i = 0; i < antNum; i++)
-	{
-		if(ants[i].flag == 1)  //只对到达目的点的蚂蚁 所走过路径 更新信息素
-			for (int j = 0; j < pathNum; j++)
-			{
-				if (ants[i].antPath[j] == -1 || ants[i].antPath[j + 1] == -1)
-					break;
-				else
-					nextPher(ants[i].antPath[j], ants[i].antPath[j + 1])
-					+= pQ / getAntLen(ants[i]);
-			}
-		
-	}
+	int bestAnt=getBestPath();
+    for(int i=0;i<pathNum;i++){
+        if(ants[bestAnt].antPath[i+1]==-1){
+            break;
+        }
+        nextPher(ants[bestAnt].antPath[i],ants[bestAnt].antPath[i+1])
+            +=pQ / getAntLen(ants[bestAnt]);
+    }
 	nextPher = pVol * pher + nextPher;
 }
 
@@ -379,3 +377,6 @@ void evolution()
 
 }
 
+void localUpdate(int i,int j){
+    pher(i,j)=(1-alpha)*pher(i,j)+alpha/(nodeNum*dist(i,j));
+}

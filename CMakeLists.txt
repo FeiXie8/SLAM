@@ -25,6 +25,9 @@ target_link_libraries(useSophus ${Sophus_LIBS} fmt)
 add_executable(antagri ${PROJECT_SOURCE_DIR}/src/antagri.cpp)
 target_link_libraries(antagri )
 
+add_executable(acs ${PROJECT_SOURCE_DIR}/src/acs.cpp)
+target_link_libraries(acs )
+
 add_executable(antagriCV ${PROJECT_SOURCE_DIR}/src/antgriWithCV.cpp)
 target_link_libraries(antagriCV ${OpenCV_LIBS})
 

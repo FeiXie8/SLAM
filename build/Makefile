@@ -137,6 +137,19 @@ g2oCurveFitting/fast:
 .PHONY : g2oCurveFitting/fast
 
 #=============================================================================
+# Target rules for targets named antagriCV
+
+# Build rule for target.
+antagriCV: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 antagriCV
+.PHONY : antagriCV
+
+# fast build rule for target.
+antagriCV/fast:
+	$(MAKE) -f CMakeFiles/antagriCV.dir/build.make CMakeFiles/antagriCV.dir/build
+.PHONY : antagriCV/fast
+
+#=============================================================================
 # Target rules for targets named triangulation
 
 # Build rule for target.
@@ -163,17 +176,17 @@ ceresCurveFitting/fast:
 .PHONY : ceresCurveFitting/fast
 
 #=============================================================================
-# Target rules for targets named antagriCV
+# Target rules for targets named acs
 
 # Build rule for target.
-antagriCV: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 antagriCV
-.PHONY : antagriCV
+acs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 acs
+.PHONY : acs
 
 # fast build rule for target.
-antagriCV/fast:
-	$(MAKE) -f CMakeFiles/antagriCV.dir/build.make CMakeFiles/antagriCV.dir/build
-.PHONY : antagriCV/fast
+acs/fast:
+	$(MAKE) -f CMakeFiles/acs.dir/build.make CMakeFiles/acs.dir/build
+.PHONY : acs/fast
 
 #=============================================================================
 # Target rules for targets named antagri
@@ -226,6 +239,21 @@ useSophus: cmake_check_build_system
 useSophus/fast:
 	$(MAKE) -f CMakeFiles/useSophus.dir/build.make CMakeFiles/useSophus.dir/build
 .PHONY : useSophus/fast
+
+# target to build an object file
+src/acs.o:
+	$(MAKE) -f CMakeFiles/acs.dir/build.make CMakeFiles/acs.dir/src/acs.o
+.PHONY : src/acs.o
+
+# target to preprocess a source file
+src/acs.i:
+	$(MAKE) -f CMakeFiles/acs.dir/build.make CMakeFiles/acs.dir/src/acs.i
+.PHONY : src/acs.i
+
+# target to generate assembly for a file
+src/acs.s:
+	$(MAKE) -f CMakeFiles/acs.dir/build.make CMakeFiles/acs.dir/src/acs.s
+.PHONY : src/acs.s
 
 # target to build an object file
 src/antagri.o:
@@ -372,13 +400,17 @@ help:
 	@echo "... pose_estimation_2d2d"
 	@echo "... edit_cache"
 	@echo "... g2oCurveFitting"
+	@echo "... antagriCV"
 	@echo "... triangulation"
 	@echo "... ceresCurveFitting"
-	@echo "... antagriCV"
+	@echo "... acs"
 	@echo "... antagri"
 	@echo "... orb_cv"
 	@echo "... gaussNewton"
 	@echo "... useSophus"
+	@echo "... src/acs.o"
+	@echo "... src/acs.i"
+	@echo "... src/acs.s"
 	@echo "... src/antagri.o"
 	@echo "... src/antagri.i"
 	@echo "... src/antagri.s"

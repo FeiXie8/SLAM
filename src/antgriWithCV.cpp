@@ -25,7 +25,7 @@ const int antNum = 40;     //蚂蚁数量
 const double pVol = 0.3;   //信息素挥发系数 0.2~0.5
 const int pQ = 10;         //信息素强度 10~1000
 const double pImp = 1;     //信息素相对重要性 1~4
-const double qImp = 4.5;     //启发信息相对重要性 3~4.5
+const double qImp = 0;     //启发信息相对重要性 3~4.5
 const int gen =20;       //迭代次数 100~500
 
 struct ant                 //蚂蚁结构体
@@ -386,6 +386,7 @@ void evolution()
         imshow("picture",result);
         waitKey(1000);
 		g++;
+		
 	}
     destroyAllWindows();
 	finish = clock();

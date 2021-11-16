@@ -226,6 +226,7 @@ void OpticalFlowTracker::calculateOpticalFlow(const Range &range) {
                     double error = GetPixelValue(img1, kp.pt.x + x, kp.pt.y + y) -
                                    GetPixelValue(img2, kp.pt.x + x + dx, kp.pt.y + y + dy);;  // Jacobian
                     if (inverse == false) {
+                        //这里的雅克比是预测点附近的灰度梯度，kp1里的数是常数，导数为0
                         J = -1.0 * Eigen::Vector2d(
                             0.5 * (GetPixelValue(img2, kp.pt.x + dx + x + 1, kp.pt.y + dy + y) -
                                    GetPixelValue(img2, kp.pt.x + dx + x - 1, kp.pt.y + dy + y)),
