@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../bin/antagri"
   "../bin/antagri.pdb"
-  "CMakeFiles/antagri.dir/src/antagri.o"
+  "CMakeFiles/antagri.dir/src/antagri.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

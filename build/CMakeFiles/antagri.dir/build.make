@@ -57,27 +57,27 @@ include CMakeFiles/antagri.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/antagri.dir/flags.make
 
-CMakeFiles/antagri.dir/src/antagri.o: CMakeFiles/antagri.dir/flags.make
-CMakeFiles/antagri.dir/src/antagri.o: ../src/antagri.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/antagri.dir/src/antagri.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/antagri.dir/src/antagri.o -c /home/xiefei/learnSLAM/learnSophus/src/antagri.cpp
+CMakeFiles/antagri.dir/src/antagri.cpp.o: CMakeFiles/antagri.dir/flags.make
+CMakeFiles/antagri.dir/src/antagri.cpp.o: ../src/antagri.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/antagri.dir/src/antagri.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/antagri.dir/src/antagri.cpp.o -c /home/xiefei/learnSLAM/learnSophus/src/antagri.cpp
 
-CMakeFiles/antagri.dir/src/antagri.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/antagri.dir/src/antagri.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/antagri.cpp > CMakeFiles/antagri.dir/src/antagri.i
+CMakeFiles/antagri.dir/src/antagri.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/antagri.dir/src/antagri.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/antagri.cpp > CMakeFiles/antagri.dir/src/antagri.cpp.i
 
-CMakeFiles/antagri.dir/src/antagri.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/antagri.dir/src/antagri.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/antagri.cpp -o CMakeFiles/antagri.dir/src/antagri.s
+CMakeFiles/antagri.dir/src/antagri.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/antagri.dir/src/antagri.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/antagri.cpp -o CMakeFiles/antagri.dir/src/antagri.cpp.s
 
 # Object files for target antagri
 antagri_OBJECTS = \
-"CMakeFiles/antagri.dir/src/antagri.o"
+"CMakeFiles/antagri.dir/src/antagri.cpp.o"
 
 # External object files for target antagri
 antagri_EXTERNAL_OBJECTS =
 
-../bin/antagri: CMakeFiles/antagri.dir/src/antagri.o
+../bin/antagri: CMakeFiles/antagri.dir/src/antagri.cpp.o
 ../bin/antagri: CMakeFiles/antagri.dir/build.make
 ../bin/antagri: CMakeFiles/antagri.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/antagri"

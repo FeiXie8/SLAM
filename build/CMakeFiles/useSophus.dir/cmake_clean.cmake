@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../bin/useSophus"
   "../bin/useSophus.pdb"
-  "CMakeFiles/useSophus.dir/src/useSophus.o"
+  "CMakeFiles/useSophus.dir/src/useSophus.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

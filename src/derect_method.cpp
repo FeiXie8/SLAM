@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <sophus/se3.hpp>
 #include <boost/format.hpp>
-#include <pangolin/pangolin.h>
+//#include <pangolin/pangolin.h>
 
 using namespace std;
 
@@ -12,9 +12,9 @@ double fx = 718.856, fy = 718.856, cx = 607.1928, cy = 185.2157;
 // baseline
 double baseline = 0.573;
 // paths
-string left_file = "./left.png";
-string disparity_file = "./disparity.png";
-boost::format fmt_others("./%06d.png");    // other files
+string left_file = "../img/left.png";
+string disparity_file = "../img/disparity.png";
+boost::format fmt_others("../img/%06d.png");    // other files
 
 // useful typedefs
 typedef Eigen::Matrix<double, 6, 6> Matrix6d;
@@ -174,7 +174,7 @@ void DirectPoseEstimationSingleLayer(
         Vector6d b = jaco_accu.bias();
 
         // solve update and put it into estimation
-        Vector6d update = H.ldlt().solve(b);;
+        Vector6d update = H.ldlt().solve(b);
         T21 = Sophus::SE3d::exp(update) * T21;
         cost = jaco_accu.cost_func();
 
@@ -232,7 +232,7 @@ void JacobianAccumulator::accumulate_jacobian(const cv::Range &range) {
         // compute the projection in the second image
         Eigen::Vector3d point_ref =
             depth_ref[i] * Eigen::Vector3d((px_ref[i][0] - cx) / fx, (px_ref[i][1] - cy) / fy, 1);
-        Eigen::Vector3d point_cur = T21 * point_ref;
+        Eigen::Vector3d point_cur = T21 * point_ref; //转换到第二个位置的相机坐标系下
         if (point_cur[2] < 0)   // depth invalid
             continue;
 

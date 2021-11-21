@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../bin/ceresCurveFitting"
   "../bin/ceresCurveFitting.pdb"
-  "CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.o"
+  "CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

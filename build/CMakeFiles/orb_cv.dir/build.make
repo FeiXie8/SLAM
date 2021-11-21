@@ -57,27 +57,27 @@ include CMakeFiles/orb_cv.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/orb_cv.dir/flags.make
 
-CMakeFiles/orb_cv.dir/src/orb_cv.o: CMakeFiles/orb_cv.dir/flags.make
-CMakeFiles/orb_cv.dir/src/orb_cv.o: ../src/orb_cv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/orb_cv.dir/src/orb_cv.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/orb_cv.dir/src/orb_cv.o -c /home/xiefei/learnSLAM/learnSophus/src/orb_cv.cpp
+CMakeFiles/orb_cv.dir/src/orb_cv.cpp.o: CMakeFiles/orb_cv.dir/flags.make
+CMakeFiles/orb_cv.dir/src/orb_cv.cpp.o: ../src/orb_cv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/orb_cv.dir/src/orb_cv.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/orb_cv.dir/src/orb_cv.cpp.o -c /home/xiefei/learnSLAM/learnSophus/src/orb_cv.cpp
 
-CMakeFiles/orb_cv.dir/src/orb_cv.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/orb_cv.dir/src/orb_cv.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/orb_cv.cpp > CMakeFiles/orb_cv.dir/src/orb_cv.i
+CMakeFiles/orb_cv.dir/src/orb_cv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/orb_cv.dir/src/orb_cv.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/orb_cv.cpp > CMakeFiles/orb_cv.dir/src/orb_cv.cpp.i
 
-CMakeFiles/orb_cv.dir/src/orb_cv.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/orb_cv.dir/src/orb_cv.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/orb_cv.cpp -o CMakeFiles/orb_cv.dir/src/orb_cv.s
+CMakeFiles/orb_cv.dir/src/orb_cv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/orb_cv.dir/src/orb_cv.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/orb_cv.cpp -o CMakeFiles/orb_cv.dir/src/orb_cv.cpp.s
 
 # Object files for target orb_cv
 orb_cv_OBJECTS = \
-"CMakeFiles/orb_cv.dir/src/orb_cv.o"
+"CMakeFiles/orb_cv.dir/src/orb_cv.cpp.o"
 
 # External object files for target orb_cv
 orb_cv_EXTERNAL_OBJECTS =
 
-../bin/orb_cv: CMakeFiles/orb_cv.dir/src/orb_cv.o
+../bin/orb_cv: CMakeFiles/orb_cv.dir/src/orb_cv.cpp.o
 ../bin/orb_cv: CMakeFiles/orb_cv.dir/build.make
 ../bin/orb_cv: /usr/local/lib/libopencv_world.so.4.5.2
 ../bin/orb_cv: /usr/local/lib/libopencv_world.so.4.5.2

@@ -57,27 +57,27 @@ include CMakeFiles/g2oCurveFitting.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/g2oCurveFitting.dir/flags.make
 
-CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.o: CMakeFiles/g2oCurveFitting.dir/flags.make
-CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.o: ../src/g2oCurveFitting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.o -c /home/xiefei/learnSLAM/learnSophus/src/g2oCurveFitting.cpp
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o: CMakeFiles/g2oCurveFitting.dir/flags.make
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o: ../src/g2oCurveFitting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o -c /home/xiefei/learnSLAM/learnSophus/src/g2oCurveFitting.cpp
 
-CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/g2oCurveFitting.cpp > CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.i
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/g2oCurveFitting.cpp > CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.i
 
-CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/g2oCurveFitting.cpp -o CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.s
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/g2oCurveFitting.cpp -o CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.s
 
 # Object files for target g2oCurveFitting
 g2oCurveFitting_OBJECTS = \
-"CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.o"
+"CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o"
 
 # External object files for target g2oCurveFitting
 g2oCurveFitting_EXTERNAL_OBJECTS =
 
-../bin/g2oCurveFitting: CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.o
+../bin/g2oCurveFitting: CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o
 ../bin/g2oCurveFitting: CMakeFiles/g2oCurveFitting.dir/build.make
 ../bin/g2oCurveFitting: /usr/local/lib/libopencv_world.so.4.5.2
 ../bin/g2oCurveFitting: /usr/local/lib/libopencv_world.so.4.5.2

@@ -70,7 +70,6 @@ int main(int argc,char** argv){
     typedef g2o::LinearSolverDense<BlockSolverType::PoseMatrixType> LinearSolverType;
 
     //梯度下降方法，此处选择高斯牛顿
-
     auto solver=new g2o::OptimizationAlgorithmGaussNewton(
         g2o::make_unique<BlockSolverType>(g2o::make_unique<LinearSolverType>()));
     g2o::SparseOptimizer optimizer; //图模型

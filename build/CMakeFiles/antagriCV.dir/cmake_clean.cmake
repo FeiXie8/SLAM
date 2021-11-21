@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../bin/antagriCV"
   "../bin/antagriCV.pdb"
-  "CMakeFiles/antagriCV.dir/src/antgriWithCV.o"
+  "CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

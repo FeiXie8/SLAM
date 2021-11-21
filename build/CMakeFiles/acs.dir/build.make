@@ -57,27 +57,27 @@ include CMakeFiles/acs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/acs.dir/flags.make
 
-CMakeFiles/acs.dir/src/acs.o: CMakeFiles/acs.dir/flags.make
-CMakeFiles/acs.dir/src/acs.o: ../src/acs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acs.dir/src/acs.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/acs.dir/src/acs.o -c /home/xiefei/learnSLAM/learnSophus/src/acs.cpp
+CMakeFiles/acs.dir/src/acs.cpp.o: CMakeFiles/acs.dir/flags.make
+CMakeFiles/acs.dir/src/acs.cpp.o: ../src/acs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acs.dir/src/acs.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/acs.dir/src/acs.cpp.o -c /home/xiefei/learnSLAM/learnSophus/src/acs.cpp
 
-CMakeFiles/acs.dir/src/acs.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acs.dir/src/acs.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/acs.cpp > CMakeFiles/acs.dir/src/acs.i
+CMakeFiles/acs.dir/src/acs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acs.dir/src/acs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/acs.cpp > CMakeFiles/acs.dir/src/acs.cpp.i
 
-CMakeFiles/acs.dir/src/acs.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acs.dir/src/acs.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/acs.cpp -o CMakeFiles/acs.dir/src/acs.s
+CMakeFiles/acs.dir/src/acs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acs.dir/src/acs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/acs.cpp -o CMakeFiles/acs.dir/src/acs.cpp.s
 
 # Object files for target acs
 acs_OBJECTS = \
-"CMakeFiles/acs.dir/src/acs.o"
+"CMakeFiles/acs.dir/src/acs.cpp.o"
 
 # External object files for target acs
 acs_EXTERNAL_OBJECTS =
 
-../bin/acs: CMakeFiles/acs.dir/src/acs.o
+../bin/acs: CMakeFiles/acs.dir/src/acs.cpp.o
 ../bin/acs: CMakeFiles/acs.dir/build.make
 ../bin/acs: CMakeFiles/acs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/acs"

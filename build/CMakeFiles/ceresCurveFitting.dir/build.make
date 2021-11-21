@@ -57,27 +57,27 @@ include CMakeFiles/ceresCurveFitting.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ceresCurveFitting.dir/flags.make
 
-CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.o: CMakeFiles/ceresCurveFitting.dir/flags.make
-CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.o: ../src/ceresCurveFitting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.o -c /home/xiefei/learnSLAM/learnSophus/src/ceresCurveFitting.cpp
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o: CMakeFiles/ceresCurveFitting.dir/flags.make
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o: ../src/ceresCurveFitting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o -c /home/xiefei/learnSLAM/learnSophus/src/ceresCurveFitting.cpp
 
-CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/ceresCurveFitting.cpp > CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.i
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/ceresCurveFitting.cpp > CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.i
 
-CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/ceresCurveFitting.cpp -o CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.s
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/ceresCurveFitting.cpp -o CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.s
 
 # Object files for target ceresCurveFitting
 ceresCurveFitting_OBJECTS = \
-"CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.o"
+"CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o"
 
 # External object files for target ceresCurveFitting
 ceresCurveFitting_EXTERNAL_OBJECTS =
 
-../bin/ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.o
+../bin/ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o
 ../bin/ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/build.make
 ../bin/ceresCurveFitting: /usr/local/lib/libopencv_world.so.4.5.2
 ../bin/ceresCurveFitting: /usr/local/lib/libopencv_world.so.4.5.2

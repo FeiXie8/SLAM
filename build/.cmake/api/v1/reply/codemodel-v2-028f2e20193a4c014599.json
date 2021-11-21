@@ -1,0 +1,185 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "usesophus",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "acs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acs-Release-e5d1a5b38ef27caa7f74.json",
+					"name" : "acs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "antagri::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-antagri-Release-9dafe3ecf6338a78debc.json",
+					"name" : "antagri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "antagriCV::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-antagriCV-Release-4f79c970afc61122ff66.json",
+					"name" : "antagriCV",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ba_ceres::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ba_ceres-Release-dd9c3d67c09c6566d9b0.json",
+					"name" : "ba_ceres",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ceresCurveFitting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ceresCurveFitting-Release-09de9b85616e875178d5.json",
+					"name" : "ceresCurveFitting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "derect_method::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-derect_method-Release-b7a368b7808be34a34e6.json",
+					"name" : "derect_method",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "feature_training::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-feature_training-Release-74f8dedff8bc4916722b.json",
+					"name" : "feature_training",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "g2oCurveFitting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-g2oCurveFitting-Release-50fe8d1325c3de82483a.json",
+					"name" : "g2oCurveFitting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gaussNewton::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gaussNewton-Release-cb539177322922a593e0.json",
+					"name" : "gaussNewton",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orb_cv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orb_cv-Release-52a31a90f3af99e63898.json",
+					"name" : "orb_cv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud-Release-9143cf51befae973f5ec.json",
+					"name" : "pointcloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_estimation_2d2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_estimation_2d2d-Release-b33b5e94d8fda52185e6.json",
+					"name" : "pose_estimation_2d2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_estimation_3d2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_estimation_3d2d-Release-d0126e63e448d5500974.json",
+					"name" : "pose_estimation_3d2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "triangulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-triangulation-Release-7a4ac09689deb2427526.json",
+					"name" : "triangulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "useSophus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-useSophus-Release-75dde117884672e0e945.json",
+					"name" : "useSophus",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xiefei/learnSLAM/learnSophus/build",
+		"source" : "/home/xiefei/learnSLAM/learnSophus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../bin/gaussNewton"
   "../bin/gaussNewton.pdb"
-  "CMakeFiles/gaussNewton.dir/src/gaussNewton.o"
+  "CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

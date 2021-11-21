@@ -57,27 +57,27 @@ include CMakeFiles/triangulation.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/triangulation.dir/flags.make
 
-CMakeFiles/triangulation.dir/src/triangulation.o: CMakeFiles/triangulation.dir/flags.make
-CMakeFiles/triangulation.dir/src/triangulation.o: ../src/triangulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangulation.dir/src/triangulation.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation.dir/src/triangulation.o -c /home/xiefei/learnSLAM/learnSophus/src/triangulation.cpp
+CMakeFiles/triangulation.dir/src/triangulation.cpp.o: CMakeFiles/triangulation.dir/flags.make
+CMakeFiles/triangulation.dir/src/triangulation.cpp.o: ../src/triangulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/triangulation.dir/src/triangulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/triangulation.dir/src/triangulation.cpp.o -c /home/xiefei/learnSLAM/learnSophus/src/triangulation.cpp
 
-CMakeFiles/triangulation.dir/src/triangulation.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangulation.dir/src/triangulation.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/triangulation.cpp > CMakeFiles/triangulation.dir/src/triangulation.i
+CMakeFiles/triangulation.dir/src/triangulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangulation.dir/src/triangulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/triangulation.cpp > CMakeFiles/triangulation.dir/src/triangulation.cpp.i
 
-CMakeFiles/triangulation.dir/src/triangulation.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangulation.dir/src/triangulation.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/triangulation.cpp -o CMakeFiles/triangulation.dir/src/triangulation.s
+CMakeFiles/triangulation.dir/src/triangulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangulation.dir/src/triangulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/triangulation.cpp -o CMakeFiles/triangulation.dir/src/triangulation.cpp.s
 
 # Object files for target triangulation
 triangulation_OBJECTS = \
-"CMakeFiles/triangulation.dir/src/triangulation.o"
+"CMakeFiles/triangulation.dir/src/triangulation.cpp.o"
 
 # External object files for target triangulation
 triangulation_EXTERNAL_OBJECTS =
 
-../bin/triangulation: CMakeFiles/triangulation.dir/src/triangulation.o
+../bin/triangulation: CMakeFiles/triangulation.dir/src/triangulation.cpp.o
 ../bin/triangulation: CMakeFiles/triangulation.dir/build.make
 ../bin/triangulation: /usr/local/lib/libopencv_world.so.4.5.2
 ../bin/triangulation: /usr/local/lib/libopencv_world.so.4.5.2

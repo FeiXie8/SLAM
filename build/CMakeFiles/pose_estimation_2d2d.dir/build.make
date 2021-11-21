@@ -57,27 +57,27 @@ include CMakeFiles/pose_estimation_2d2d.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pose_estimation_2d2d.dir/flags.make
 
-CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.o: CMakeFiles/pose_estimation_2d2d.dir/flags.make
-CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.o: ../src/pose_estimation_2d2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.o -c /home/xiefei/learnSLAM/learnSophus/src/pose_estimation_2d2d.cpp
+CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.o: CMakeFiles/pose_estimation_2d2d.dir/flags.make
+CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.o: ../src/pose_estimation_2d2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.o -c /home/xiefei/learnSLAM/learnSophus/src/pose_estimation_2d2d.cpp
 
-CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/pose_estimation_2d2d.cpp > CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.i
+CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/pose_estimation_2d2d.cpp > CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.i
 
-CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/pose_estimation_2d2d.cpp -o CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.s
+CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/pose_estimation_2d2d.cpp -o CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.s
 
 # Object files for target pose_estimation_2d2d
 pose_estimation_2d2d_OBJECTS = \
-"CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.o"
+"CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.o"
 
 # External object files for target pose_estimation_2d2d
 pose_estimation_2d2d_EXTERNAL_OBJECTS =
 
-../bin/pose_estimation_2d2d: CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.o
+../bin/pose_estimation_2d2d: CMakeFiles/pose_estimation_2d2d.dir/src/pose_estimation_2d2d.cpp.o
 ../bin/pose_estimation_2d2d: CMakeFiles/pose_estimation_2d2d.dir/build.make
 ../bin/pose_estimation_2d2d: /usr/local/lib/libopencv_world.so.4.5.2
 ../bin/pose_estimation_2d2d: /usr/local/lib/libopencv_world.so.4.5.2

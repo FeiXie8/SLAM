@@ -57,27 +57,27 @@ include CMakeFiles/antagriCV.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/antagriCV.dir/flags.make
 
-CMakeFiles/antagriCV.dir/src/antgriWithCV.o: CMakeFiles/antagriCV.dir/flags.make
-CMakeFiles/antagriCV.dir/src/antgriWithCV.o: ../src/antgriWithCV.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/antagriCV.dir/src/antgriWithCV.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/antagriCV.dir/src/antgriWithCV.o -c /home/xiefei/learnSLAM/learnSophus/src/antgriWithCV.cpp
+CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.o: CMakeFiles/antagriCV.dir/flags.make
+CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.o: ../src/antgriWithCV.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.o -c /home/xiefei/learnSLAM/learnSophus/src/antgriWithCV.cpp
 
-CMakeFiles/antagriCV.dir/src/antgriWithCV.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/antagriCV.dir/src/antgriWithCV.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/antgriWithCV.cpp > CMakeFiles/antagriCV.dir/src/antgriWithCV.i
+CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/antgriWithCV.cpp > CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.i
 
-CMakeFiles/antagriCV.dir/src/antgriWithCV.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/antagriCV.dir/src/antgriWithCV.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/antgriWithCV.cpp -o CMakeFiles/antagriCV.dir/src/antgriWithCV.s
+CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/antgriWithCV.cpp -o CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.s
 
 # Object files for target antagriCV
 antagriCV_OBJECTS = \
-"CMakeFiles/antagriCV.dir/src/antgriWithCV.o"
+"CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.o"
 
 # External object files for target antagriCV
 antagriCV_EXTERNAL_OBJECTS =
 
-../bin/antagriCV: CMakeFiles/antagriCV.dir/src/antgriWithCV.o
+../bin/antagriCV: CMakeFiles/antagriCV.dir/src/antgriWithCV.cpp.o
 ../bin/antagriCV: CMakeFiles/antagriCV.dir/build.make
 ../bin/antagriCV: /usr/local/lib/libopencv_world.so.4.5.2
 ../bin/antagriCV: /usr/local/lib/libopencv_world.so.4.5.2

@@ -57,27 +57,27 @@ include CMakeFiles/useSophus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/useSophus.dir/flags.make
 
-CMakeFiles/useSophus.dir/src/useSophus.o: CMakeFiles/useSophus.dir/flags.make
-CMakeFiles/useSophus.dir/src/useSophus.o: ../src/useSophus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/useSophus.dir/src/useSophus.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/useSophus.dir/src/useSophus.o -c /home/xiefei/learnSLAM/learnSophus/src/useSophus.cpp
+CMakeFiles/useSophus.dir/src/useSophus.cpp.o: CMakeFiles/useSophus.dir/flags.make
+CMakeFiles/useSophus.dir/src/useSophus.cpp.o: ../src/useSophus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/useSophus.dir/src/useSophus.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/useSophus.dir/src/useSophus.cpp.o -c /home/xiefei/learnSLAM/learnSophus/src/useSophus.cpp
 
-CMakeFiles/useSophus.dir/src/useSophus.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/useSophus.dir/src/useSophus.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/useSophus.cpp > CMakeFiles/useSophus.dir/src/useSophus.i
+CMakeFiles/useSophus.dir/src/useSophus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/useSophus.dir/src/useSophus.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xiefei/learnSLAM/learnSophus/src/useSophus.cpp > CMakeFiles/useSophus.dir/src/useSophus.cpp.i
 
-CMakeFiles/useSophus.dir/src/useSophus.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/useSophus.dir/src/useSophus.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/useSophus.cpp -o CMakeFiles/useSophus.dir/src/useSophus.s
+CMakeFiles/useSophus.dir/src/useSophus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/useSophus.dir/src/useSophus.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xiefei/learnSLAM/learnSophus/src/useSophus.cpp -o CMakeFiles/useSophus.dir/src/useSophus.cpp.s
 
 # Object files for target useSophus
 useSophus_OBJECTS = \
-"CMakeFiles/useSophus.dir/src/useSophus.o"
+"CMakeFiles/useSophus.dir/src/useSophus.cpp.o"
 
 # External object files for target useSophus
 useSophus_EXTERNAL_OBJECTS =
 
-../bin/useSophus: CMakeFiles/useSophus.dir/src/useSophus.o
+../bin/useSophus: CMakeFiles/useSophus.dir/src/useSophus.cpp.o
 ../bin/useSophus: CMakeFiles/useSophus.dir/build.make
 ../bin/useSophus: CMakeFiles/useSophus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xiefei/learnSLAM/learnSophus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/useSophus"

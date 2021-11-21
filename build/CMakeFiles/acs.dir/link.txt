@@ -1,1 +1,1 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/acs.dir/src/acs.o  -o ../bin/acs   -L/usr/local/cuda/lib64 
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/acs.dir/src/acs.cpp.o  -o ../bin/acs   -L/usr/local/cuda/lib64 

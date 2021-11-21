@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "../bin/acs"
   "../bin/acs.pdb"
-  "CMakeFiles/acs.dir/src/acs.o"
+  "CMakeFiles/acs.dir/src/acs.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
